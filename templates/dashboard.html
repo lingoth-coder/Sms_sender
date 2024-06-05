@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.form-wrapper sign-in{
+        width:0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins',sans-serif;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    min-height:100vh;
+    background:black;
+}
+.stater{
+    position:relative;
+    width: 400px;
+    height: 500px;
+    background:black;
+    box-shadow: 0 0 50px rgb(7, 233, 86);;
+    border-radius:50px;
+    padding:50px;
+
+}
+.form-wrapper {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:400px;
+    height:100%;
+}
+h1{
+    font-size: 30px;
+    color:white;
+    text-align:center;
+}
+.inputclass{
+    position: relative;
+    margin: 30px 0;
+    border-bottom: 2px solid black;
+    color:aliceblue;
+}
+.remember{
+    margin:-5px 0 15px 5px;
+    color:aliceblue;
+}
+button{
+    position:relative;
+    width:100%;
+    height:40px;
+    background:rgb(7, 233, 86);;
+    box-shadow: 0 0 10px rgb(7, 233, 86);;
+    font-size: 16px;
+    color:black;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+    outline:none;
+}
+.uplode{
+    color:white;
+}
+</style>
+</head>
+<body>
+    <div class="stater">
+        <div class="form-wrappersign-in">
+        <form action="#" method="post">
+            <h1>Welcome!</h1>
+            
+            <div class="inputclass">
+                Select Department  :
+                <br>
+                <br>
+                <select>
+                    <option>Department</option>
+                    <option>Computer Science Engineering</option>
+                    <option>Artifical intelligence</option>
+                    <option>Cyber Security</option>
+                    <option>Electronics and Communication Engineering</option>
+                </select>
+            </div>
+            <div class="inputclass">
+                Select Year :
+                <select>
+                    <option>Year</option>
+                    <option>2022-26</option>
+                    <option>2018-22</option>
+                    <option>2014-18</option>
+                    <option>2010-14</option>
+                </select>
+            </div>
+            <div class="inputclass">
+                Select Section:
+                <select>
+                    <option>Section</option>
+                    <option>A</option>
+                    <option>B</option>
+                    <option>C</option>
+                    <option>D</option>
+                </select>
+            <br>
+            <br>
+            <br>
+            <div class="uplode">
+                Uplode a file: <input type="file">
+            </div>
+            </div>
+            <div class="remember">
+                <input type="checkbox">
+                    I hereby declare that the above information are true and correct.
+            </div>
+            <div class="uplode">
+                </div>
+                    <button type="submit">SUBMIT</button>
+                </div>
+            </div>
+        </form>
+    </div>    
+</body>
+</html>
